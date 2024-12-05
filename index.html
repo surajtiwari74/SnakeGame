@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="gameCanvas">
+
+        </div>
+        <button id="btn"> Score:  0 </button>
+        <button id="HiScore"> HiScore: 0  </button>
+    </div>
+    <div id="level">
+        <section>
+            <h3>Rules and set the level </h3>
+            <p>
+                For UP : Arrowup <br>
+                For Down : ArrowDown <br>
+                For left : ArrowLeft <br>
+                For Right: ArrowRight <br>
+                And for Start Press  Any Key Mention Above
+            </p>
+            <h1>Choose Your Difficulty</h1>
+            <form>
+                <label for="difficulty">Speed: </label>
+                <select id="difficulty" name="difficulty">
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+                <input type="button" value="Submit" id="Submit">
+            </form>
+            
+        </section>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
